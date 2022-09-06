@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctors Appointment",
+      "day": "2022-05-05T17:30",
+      "reminder": "true"
+    },
+    {
+      "id": 2,
+      "text": "Meeting at School",
+      "day": "2022-05-06T13:30",
+      "reminder": "true"
+    },
+    {
+      "id": 3,
+      "text": "Food Shopping",
+      "day": "2022-05-07T12:30",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "TEST 4",
+      "day": "2022-09-04T18:16",
+      "reminder": false
+    },
+    {
+      "text": "Angular 11 PrimeNG",
+      "day": "2022-09-05T07:00",
+      "reminder": true,
+      "id": 5
+    }
+  ]
+}

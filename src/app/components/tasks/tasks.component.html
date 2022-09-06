@@ -1,2 +1,10 @@
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
+
 <!-- here assign 'item' into directive [task], which passes a task object as prop to the <app-task-item> component -->
-<app-task-item *ngFor="let item of tasks" [task]="item"></app-task-item>
+<app-task-item
+  *ngFor="let item of tasks"
+  [task]="item"
+  [formattedDateTime]="item.day"
+  (onDeleteTask)="deleteTask(item)"
+  (onToggleReminder)="toggleReminder(item)"
+></app-task-item>
